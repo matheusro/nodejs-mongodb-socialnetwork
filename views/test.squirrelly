@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{name}}</title>
+</head>
+<body>
+<p>My favorite template engine is {{fav}}</p>
+</body>
+</html>

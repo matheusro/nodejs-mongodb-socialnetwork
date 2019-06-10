@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-mongodb-socialnetwork",
+  "version": "1.0.0",
+  "description": "Simple node.js social network with mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusro/nodejs-mongodb-socialnetwork.git"
+  },
+  "keywords": [
+    "social;",
+    "network;",
+    "node;",
+    "mongo"
+  ],
+  "author": "Claudia Oliveira; Matheus Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheusro/nodejs-mongodb-socialnetwork/issues"
+  },
+  "homepage": "https://github.com/matheusro/nodejs-mongodb-socialnetwork#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "mongodb": "^3.2.7",
+    "squirrelly": "^7.1.1"
+  }
+}
