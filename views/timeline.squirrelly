@@ -19,10 +19,23 @@
               <a class="mdl-navigation__link" href="/timeline?username={{user}}">Timeline</a>
               <a class="mdl-navigation__link" href="/people?username={{user}}">Pessoas</a>
               <a class="mdl-navigation__link" href="/followers?username={{user}}">Seguidores</a>
+              <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/logout">Sair</a>
             </nav>
           </div>
         </header>
         <main class="mdl-layout__content">
+          <div align="center">
+            <form method="GET" action="/post">
+              <input type="hidden" id="username" name="username" value="{{user}}">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                  <textarea class="mdl-textfield__input" type="text" rows= "3" id="posttext" name="posttext"></textarea>
+                  <label class="mdl-textfield__label" for="posttext">No que você está pensando?</label>
+                </div><br>
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" type="submit">
+                    Postar
+                </button>
+            </form>
+        </div>
           <div class="page-content" align="center">
             {{foreach(options.postsList)}}
                 <br><br>

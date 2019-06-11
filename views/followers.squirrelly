@@ -19,6 +19,7 @@
                     <a class="mdl-navigation__link" href="/timeline?username={{user}}">Timeline</a>
                     <a class="mdl-navigation__link" href="/people?username={{user}}">Pessoas</a>
                     <a class="mdl-navigation__link" href="/followers?username={{user}}">Seguidores</a>
+                    <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="/logout">Sair</a>
                   </nav>
                 </div>
               </header>
