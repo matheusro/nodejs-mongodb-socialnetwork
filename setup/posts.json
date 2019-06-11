@@ -1,0 +1,5 @@
+{"_id":{"$oid":"5cfd4856b5d0a733384789c5"},"user":"claudia","content":"Hoje eu fui de bicicleta até o Iberê Camargo, e curti o pôr do sol. ADOREI!!!","date":{"$date":{"$numberLong":"1559385930000"}}}
+{"_id":{"$oid":"5cfd49208ffabf333853b579"},"user":"claudia","content":"Como é bom comer bolo de laranja em dias de chuva.","date":{"$date":{"$numberLong":"1559748630000"}}}
+{"_id":{"$oid":"5cfd49468ffabf333853b57a"},"user":"claudia","content":"Finalmente assisti Avengers endgame. UHUUUUUUU!","date":{"$date":{"$numberLong":"1559849430000"}}}
+{"_id":{"$oid":"5cfd4a208ffabf333853b57b"},"user":"pedro","content":"Caí de bicicleta e fraturei o ombro. Um mês de castigo para mim. Parabéns :( #chatiado","date":{"$date":{"$numberLong":"1557954330000"}}}
+{"_id":{"$oid":"5cfd4a4d8ffabf333853b57c"},"user":"pedro","content":"Dizem que sou ranzinza, mas discordo completamente dessa gente chata.","date":{"$date":{"$numberLong":"1559941530000"}}}

@@ -1,0 +1,6 @@
+{"_id":{"$oid":"5cfc709eb5d0a733384789be"},"name":"matheusro","password":"matheus123"}
+{"_id":{"$oid":"5cfc70bcb5d0a733384789bf"},"name":"claudia","password":"claudia123"}
+{"_id":{"$oid":"5cfd478cb5d0a733384789c0"},"name":"joao","password":"joao1234"}
+{"_id":{"$oid":"5cfd47b2b5d0a733384789c1"},"name":"jessica","password":"jessica1234"}
+{"_id":{"$oid":"5cfd47c6b5d0a733384789c2"},"name":"pedro","password":"pedro1234"}
+{"_id":{"$oid":"5cfd47ddb5d0a733384789c3"},"name":"ana","password":"Ana"}

@@ -1,0 +1,5 @@
+{"_id":{"$oid":"5cfd49b2b5d0a733384789c6"},"user":"matheusro","follows":"claudia"}
+{"_id":{"$oid":"5cfd49c6b5d0a733384789c7"},"user":"matheusro","follows":"pedro"}
+{"_id":{"$oid":"5cfefee60c62554db4f26c18"},"user":"claudia","follows":"matheusro"}
+{"_id":{"$oid":"5cfefee90c62554db4f26c19"},"user":"claudia","follows":"jessica"}
+{"_id":{"$oid":"5cfefefc0c62554db4f26c1a"},"user":"jessica","follows":"matheusro"}
