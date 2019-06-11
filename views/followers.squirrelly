@@ -24,23 +24,14 @@
               </header>
               <main class="mdl-layout__content">
                 <div class="page-content" align="center">
-                  {{foreach(options.peopleList)}}
+                  {{foreach(options.followersList)}}
                       <br><br>
                       <div class="mdl-card mdl-shadow--4dp">
-                          <div align="centers"><img src="./img/user_{{@this[0]}}.jpg" width="300" height="170" border="0" alt="" style="padding:10px;" class="demo-avatar">
+                          <div align="center"><img src="./img/user_{{@this}}.jpg" width="300" height="170" border="0" alt="" style="padding:10px;" class="demo-avatar">
                           </div>
                           <div class="mdl-card__supporting-text" align="left">
-                                <b>{{@this[0]}}</b>
+                                <b>{{@this}}</b>
                         </div>
-                        {{if(@this[1] === 0)}}
-                            <a href="/followuser?user={{user}}&name={{@this[0]}}" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--colored">
-                                seguir
-                            </a>    
-                        {{#else}}
-                            <a href="/unfollowuser?user={{user}}&name={{@this[0]}}" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-                                deixar de seguir
-                            </a>
-                        {{/if}}
                         </div>
                   {{/foreach}}
                 </div>

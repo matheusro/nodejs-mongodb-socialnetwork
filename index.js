@@ -4,9 +4,12 @@ var bodyParser = require('body-parser');
 var moment = require('moment');
 var app = express();
 
-var login = require('./routes/login')
-var timeline = require('./routes/timeline')
-var people = require('./routes/people')
+var login        = require('./routes/login')
+var timeline     = require('./routes/timeline')
+var people       = require('./routes/people')
+var followers    = require('./routes/followers')
+var followuser   = require('./routes/followuser')
+var unfollowuser = require('./routes/unfollowuser')
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'))
@@ -21,6 +24,15 @@ app.get('/timeline', timeline.timeline)
 
 //People
 app.get('/people', people.people)
+
+//Followers
+app.get('/followers', followers.followers)
+
+//Followuser
+app.get('/followuser', followuser.followuser)
+
+//Unfollowuser
+app.get('/unfollowuser', unfollowuser.unfollowuser)
 
 var server = app.listen(4000, function () { // This starts the server
     console.log("listening to request on port 4000");

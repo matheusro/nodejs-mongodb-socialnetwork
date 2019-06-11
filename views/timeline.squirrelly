@@ -26,14 +26,11 @@
           <div class="page-content" align="center">
             {{foreach(options.postsList)}}
                 <br><br>
-                <div class="mdl-card mdl-shadow--4dp">
-                    <div class="mdl-card__media"><img src="./img/user_{{@this[0]}}.jpg" width="173" height="157" border="0" alt="" style="padding:10px;" class="demo-avatar">
+                <div class="mdl-card mdl-shadow--4dp" style="width:600px ! important;">
+                    <div align="left"><img src="./img/user_{{@this[0]}}.jpg" width="90" height="90" border="0" alt="" style="padding:10px ; border-radius: 50%">{{@this[0]}}
                     </div>
                     <div class="mdl-card__supporting-text" align="right">
                             <i>{{@this[1]}}</i>
-                    </div>
-                    <div class="mdl-card__supporting-text" align="left">
-                            <b>{{@this[0]}}</b>
                     </div>
                     <div class="mdl-card__supporting-text" align="left">
                             {{@this[2]}}

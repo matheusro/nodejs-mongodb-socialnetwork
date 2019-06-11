@@ -27,9 +27,9 @@ function buscaPosts(followList, user, res){
         results.forEach(function(item){
           var postContent = new Array();
           postContent[0] = item.user;
-          postContent[1] = item.date;
+          postContent[1] = getFormatedDate(item.date);
           postContent[2] = item.content;
-
+          
           postsList.push(postContent);
         });
         res.render('timeline', { user: user, postsList : postsList });
@@ -38,7 +38,5 @@ function buscaPosts(followList, user, res){
 
 
 function getFormatedDate(dateField) {
-    console.log(dateField)
-    //var formatedDate = moment(dateField)
-    //return formatedDate().format("MMM Do YY");
+    return formatedDate = moment(dateField).format("MMM Do YY");
 }
