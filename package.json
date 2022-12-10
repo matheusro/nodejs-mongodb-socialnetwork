@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/matheusro/nodejs-mongodb-socialnetwork#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "moment": "^2.24.0",
     "mongodb": "^3.2.7",
     "squirrelly": "^7.1.1"
